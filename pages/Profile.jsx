@@ -4,9 +4,9 @@ import { Outlet } from 'react-router-dom'
 const Profile = () => {
   return (
     <div>
-        <a href="myaccount">My Accounts</a><br/>
+        <a href="/profile/myaccount">My Accounts</a><br/>
         <br/>
-        <a href="mysettings">My Settings</a>
+        <a href="/profile/mysettings">My Settings</a>
 
         <Outlet/>
     </div>
